@@ -1,0 +1,74 @@
+/* styles.css */
+.list-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .filiere-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .filiere-table th, .filiere-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .filiere-table th {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .filiere-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .filiere-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .modify-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .modify-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-button:hover {
+    background-color: #0056b3;
+  }
+  
